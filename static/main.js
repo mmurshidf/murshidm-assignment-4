@@ -39,6 +39,7 @@ function displayChart(data) {
     //        - similarities (list) - list of similarities
     // Implement function to display chart here
     // There is a canvas element in the HTML file with the id 'similarity-chart'
+    //Chart
 
     let ctx = document.getElementById('similarity-chart').getContext('2d');
     if (window.simChart) {
